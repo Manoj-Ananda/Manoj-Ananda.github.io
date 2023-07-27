@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+</head>
 <body>
+    <div class="container">
+        <nav>
+            <div class="logo">Manoj<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </nav>
 
-<h1>My First Heading</h1>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multitext">coder</span></h1>
+                <p>A creative and self-motivated individual who is eager to learn new skills and expand his knowledge. Good in Java, HTML, CSS and JavaScript.</p>
+                <div class="btn">
+                    <button>Download Resume</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                   <img src="C:\Users\A\Desktop\Manoj's workshop\personal porfolio\img\Blue-brush-stroke-isolated-on-transparent-background-PNG.png" alt="paint" id="splash">
+                   <img src="C:\Users\A\Desktop\Manoj's workshop\personal porfolio\img\img2.png" alt="me"> 
+                </div>
+            </div>
+        </div>
+    </div>
 
-<p>My first paragraph.</p>
-
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multitext" ,{
+            strings: ["Developer" ,"Designer" ,"an Artist"],
+            loop:true,
+            typeSpeed:150,
+            backSpeed:100,
+            backDelay:2000
+        })
+    </script>
 </body>
 </html>
-
